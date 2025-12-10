@@ -14,7 +14,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/direcciones")
 @RequiredArgsConstructor
-@CrossOrigin(origins = "http://localhost:4200")
+//@CrossOrigin(origins = "http://localhost:4200")
 public class DireccionController {
     private final DireccionService direccionService;
 
