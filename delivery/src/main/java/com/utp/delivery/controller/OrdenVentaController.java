@@ -17,7 +17,7 @@ import java.util.Map;
 @RestController
 @RequestMapping("/api/ordenes")
 @RequiredArgsConstructor
-@CrossOrigin(origins = "http://localhost:4200")
+//@CrossOrigin(origins = "http://localhost:4200")
 public class OrdenVentaController {
     
     private final OrdenVentaService ordenVentaService;

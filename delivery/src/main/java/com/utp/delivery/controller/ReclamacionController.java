@@ -15,7 +15,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/reclamaciones")
 @RequiredArgsConstructor
-@CrossOrigin(origins = "http://localhost:4200")
+//@CrossOrigin(origins = "http://localhost:4200")
 public class ReclamacionController {
 
     private final ReclamacionService reclamacionService;
