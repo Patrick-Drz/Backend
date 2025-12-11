@@ -43,7 +43,7 @@ public class AuthService {
         user.setCorreo(request.getCorreo().trim());
         user.setContrasena(passwordEncoder.encode(request.getContrasena())); 
         user.setCodigoEstudiante(request.getCodigoEstudiante());
-        user.setRol("ADMINISTRADOR"); 
+        user.setRol("CLIENTE"); 
         user.setActivo(true);
         user.setFechaRegistro(LocalDateTime.now());
         
